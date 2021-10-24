@@ -1,0 +1,140 @@
+* {
+   margin: 0px;
+   box-sizing: border-box;
+}
+#root {
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.display_flex {
+    display: flex;
+}
+.display_column {
+    display: flex;
+    flex-direction: column;
+}
+.display_row {
+    display: flex;
+    flex-direction: row;
+}
+.profile_photo {
+    border-radius: 16px;
+    text-align: center;
+    width: 102px;
+    height: 102px;
+    margin: 0px 30px;
+}
+.person_name {
+    font-size: 14px;
+    line-height: 17px;
+    color: #4E5150;
+    font-family: 'Montserrat', sans-serif;
+    margin: 11px 0px 4px 0px;
+}
+.person_place {
+    font-size: 10px;
+    line-height: 12px;
+    color: #A9A9A9;
+    font-family: 'Montserrat', sans-serif;
+}
+.div_padding {
+    padding: 12px 50px 0px 64px ;
+    justify-content: center;
+}
+.information {
+    border-radius: 12px;
+    background-color: #e5e5e5;
+    width: 78px;
+    height: 52px;
+    padding: 10px 2px 6px 1px;
+}
+.information_count {
+    font-size: 12px;
+    line-height: 15px;
+    color: #4E5150;
+    font-family: 'Montserrat', sans-serif;
+}
+.information_comtent {
+    font-size: 12px;
+    line-height: 15px;
+    color: #bdbdbd;
+}
+.information_posts {
+    margin: 0px 12px 0px 0px;
+}
+.information_following {
+    margin: 0px 50px 39px 15px;
+}
+.picture_2_style {
+    width: 25%;
+    height: 109px;
+    border-radius: 12px;
+}
+.picture_3_style {
+    width: 75%;
+    height: 109px;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+.space_between_div {
+    margin: 23px 0px;
+}
+.space_between_pictures {
+    justify-content: space-between;
+}
+.div_width {
+    width: 678px;
+}
+.picture_4_style {
+    height: 109px;
+    border-radius: 12px;
+    margin: 0px;
+    width: 100%;
+}
+.picture_5_style {
+    height: 109px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.picture_5_margin {
+    margin-right: 12PX;
+}
+.picture_7_style {
+    width: 109px;    
+    height: 230px;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+.creater {
+    font-size: 14px;
+    line-height: 17px;
+    color: #B9BDCF;
+    margin: 55px 46px 0px 42px;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    #root {
+        padding: 60px 100px 24px 100px;
+    }
+    .picture_2_style {
+        width: 25%;
+        height: 200px;
+    }
+    .picture_3_style {
+        width: 75%;
+        height: 200px;
+    }
+    .picture_4_style {
+        width: 100%;
+        height: 200px;
+    }
+    .picture_5_style {
+        width: 45%;
+        height: 200px;
+    }
+    .picture_7_style {
+        width: 200px;
+        height: 420px;
+    }
+}
